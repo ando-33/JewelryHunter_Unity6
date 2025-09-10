@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Goal
+  - Dead
+  - ScoreItem
   layers:
   - Default
   - TransparentFX
@@ -13,9 +15,9 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
+  - Wall
+  - Enemy
+  - Shell
   - 
   - 
   - 
