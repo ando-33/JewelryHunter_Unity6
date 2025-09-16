@@ -31,14 +31,13 @@ public enum ItemColor
     Green,
     Red
 }
+
 public class ItemData : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     public ItemColor colors = ItemColor.White;
     public Sprite[] itemSprites;
 
-    public int value = 0;//整数値を設定
+    public int value = 0;       // 整数値を設定できる
 
     void Start()
     {
@@ -58,16 +57,7 @@ public class ItemData : MonoBehaviour
             case ItemColor.Red:
                 spriteRenderer.sprite = itemSprites[3];
                 break;
-
         }
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
 ```
